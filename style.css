@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #212121;
+}
+
+nav {
+    display: flex;
+    background-color: #212121;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    padding-top: 10px;
+}
+
+#navbar {
+    list-style-type: none;
+    display: inline-flex;
+    justify-content: right;
+    margin: auto;
+    margin-right: 10vw;
+}
+
+#navicon {
+    height: 75px;
+    display: inline-flex;
+    margin-left: 10vw;
+    animation: rotation 10s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+.navitems {
+    color: #fff;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+@media (max-width: 800px) 
+{
+    .navitems {
+        display: none;
+    }
+
+    #navbar {
+        display: none;
+    }
+
+    #navicon {
+        height: 75px;
+        display: inline-flex;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+#home {
+    max-width: 80vw;
+    padding: 150px 10vw 20vh 10vw;
+    padding-top: 150px;
+    padding-left: 10vw;
+    display: inline-flex;
+}
+
+#homehading1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 15vh;
+    color: #dfdfdf;
+}
+
+#homehading2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 5vh;
+    color: grey;
+}
+
+#homeimages {
+    max-width: 40vw;
+    display: inline-flex;
+}
+
+#homeimage {
+    width: 30vw;
+}
+
+@media (max-width: 800px) 
+{
+    #homeimages {
+        display: none;
+    }
+}
+
+#tips {
+    padding: 20vh 20vw 1vh 20vw;
+    background-color: #262626;
+}
+
+@media (max-width: 800px) 
+{
+    #tips {
+        padding: 20vh 10vw 1vh 10vw;
+        background-color: #262626;
+    }
+}
+
+#tipsheading {
+    text-align: center;
+    color: white;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 10vh;
+}
+
+.tips {
+    border: 1px double grey;
+    margin-bottom: 10vh;
+    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.tipsimage {
+    height: 20vh;
+    border-radius: 10px;
+}
+
+.tipstitle {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 7vh;
+    padding-left: 5vw;
+}
+
+#symptoms {
+    padding: 20vh 20vw 1vh 20vw;
+    background-color: #262626;
+}
+
+#symptomsheading {
+    text-align: center;
+    color: white;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 7vh;
+}
+
+tr, td {
+    border: 1px solid grey;
+}
+
+table {
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 5vh;
+    width: 60vw;
+}
+
+td {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3vh;
+    padding: 5px 5px 5px 5px;
+}
+
+@media (max-width: 800px) 
+{
+    #symptoms {
+        padding: 20vh 5vw 1vh 5vw;
+        background-color: #262626;
+    }
+}
+
+#faqs {
+    padding: 20vh 20vw 1vh 20vw;
+    background-color: #262626;
+}
+
+#faqsheading {
+    text-align: center;
+    color: white;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 10vh;
+}
+
+.faqs {
+    border: 1px double grey;
+    margin-bottom: 10vh;
+    margin-top: 10vh;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.faqtitle {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 5vh;
+    padding-left: 2vw;
+    padding-top: 2vh;
+}
+
+.faqcontent {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-bottom: 2vh;
+}
+
+@media (max-width: 800px) 
+{
+    #faqs {
+        padding: 20vh 10vw 1vh 10vw;
+        background-color: #262626;
+    }
+}
+
+#youtube {
+    padding: 20vh 20vw 10vh 20vw;
+    background-color: #262626;
+}
+
+#youtubeheading {
+    text-align: center;
+    color: white;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 8vh;
+}
+
+#youtubevideo {
+    padding-top: 10vh;
+    height: 60vh;
+    width: 60vw;
+}
+
+@media (max-width: 800px) 
+{
+    #youtube {
+        padding: 20vh 10vw 10vh 10vw;
+        background-color: #262626;
+    }
+    #youtubevideo {
+        height: 40vh;
+        width: 80vw;
+    }
+}
+
+footer {
+    background-color: #212121;
+    padding-top: 8vh;
+}
+
+#socials {
+    margin: auto;
+    margin-right: 10vw;
+    float: right;
+}
+
+.socialicon {
+    height: 35px;
+    margin-right: 1vw;
+    margin-left: 1vw;
+}
+
+#copyright {
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 5vh;
+}
+
+@media (max-width: 750px) 
+{
+    #socials {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        float: none;
+        margin: auto;
+    }  
+}
