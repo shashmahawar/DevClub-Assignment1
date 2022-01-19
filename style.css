@@ -144,6 +144,15 @@ nav {
     padding-left: 5vw;
 }
 
+@media (max-width: 800px) {
+    .tipstitle {
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        font-size: 5vh;
+        padding-left: 5vw;
+    }
+}
+
 #symptoms {
     padding: 20vh 20vw 1vh 20vw;
     background-color: #262626;
