@@ -144,6 +144,15 @@ nav {
     padding-left: 5vw;
 }
 
+@media (max-width: 800px) {
+    .tipstitle {
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        font-size: 5vh;
+        padding-left: 5vw;
+    }
+}
+
 #symptoms {
     padding: 20vh 20vw 1vh 20vw;
     background-color: #262626;
@@ -253,6 +262,37 @@ td {
         background-color: #262626;
     }
     #youtubevideo {
+        height: 40vh;
+        width: 80vw;
+    }
+}
+
+#map {
+    padding: 20vh 20vw 10vh 20vw;
+    background-color: #262626;
+}
+
+#mapheading {
+    text-align: center;
+    color: white;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 8vh;
+}
+
+#mapembed {
+    padding-top: 10vh;
+    height: 60vh;
+    width: 60vw;
+    border: 0;
+}
+
+@media (max-width: 800px) 
+{
+    #map {
+        padding: 20vh 10vw 10vh 10vw;
+        background-color: #262626;
+    }
+    #mapembed {
         height: 40vh;
         width: 80vw;
     }
